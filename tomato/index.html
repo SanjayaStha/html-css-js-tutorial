@@ -29,7 +29,7 @@
         <img src="./tomato-banner.jpg" alt="John Doe's Picture">
 
         <p>
-            Hello, I am John Doe, a passionate web developer with a love for creating beautiful and functional websites.
+            Hello, I am John Doe, a passionate tomato with a love for creating beautiful and functional websites.
             
             I have been working in the web development industry for over 5 years, and I am always eager to learn new technologies and improve my features.
         </p>
@@ -156,9 +156,36 @@
     </ul>
 </section>
 
+<section id="newsletter-subscribe">
+    <h2>Stay in the Loop</h2>
+    <p>Subscribe to our newsletter and submit your CV to hear about new opportunities and updates!</p>
+    
+    <form action="/submit" method="post" enctype="multipart/form-data">
+      
+      <label for="name">Full Name:</label><br />
+      <input type="text" name="name" id="name" placeholder="Your full name" required /><br /><br />
+  
+      <label for="email">Email Address:</label><br />
+      <input type="email" name="email" id="email" placeholder="Your email" required /><br /><br />
+  
+      <label for="phone">Phone Number:</label><br />
+      <input type="tel" name="phone" id="phone" placeholder="Your phone number" /><br /><br />
+  
+      <label for="cv">Upload Your CV:</label><br />
+      <input type="file" name="cv" id="cv" accept=".pdf,.doc,.docx" required /><br /><br />
+  
+      <button type="submit">Submit</button>
+  
+    </form>
+  </section>
+  
+
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Mr. Tomato | All rights reserved.</p>
     </footer>
+
+
+
 </body>
 </html>
